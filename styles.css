@@ -1,0 +1,194 @@
+body {
+    background: #C4C4C4;
+    background: url(background.jpg);
+    background-size: 1920px 1080px;
+    font-family: SF Pro Display;
+}
+
+.menu-list li {
+    list-style: none;
+    margin-left: 60px;
+}
+
+.menu-list li:first-child {
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #E7E7F2;
+    position:absolute;
+    left: 240px;
+    top: 45px;
+    width: 1440px;
+}
+
+.menu-center {
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    font-weight: bold;
+}
+
+.container {
+    width: 1440px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: SF Pro Display;
+}
+
+.menu-list {
+    display:flex;
+}
+
+.text1 {
+    position: absolute;
+    width: 750px;
+    height: 212px;
+    left: 240px;
+    top: 265px;
+    line-height: 110%;
+    font-family: SF Pro Display;
+    font-weight: bold;
+    font-size: 96px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.text2 {
+    position: absolute;
+    width: 500px;
+    height: 84px;
+    left: 240px;
+    top: 580px;
+
+    font-family: SF Pro Text;
+    font-size: 28px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.booking {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 81.39%;
+    bottom: 0%;
+    background: #444d4f;
+    opacity: 0.98;
+    border-radius: 20px 20px 0px 0px;
+    width: 1440px;
+    height: 201px;
+
+}
+
+.booking-text {
+    position: absolute;
+    left: 15%;
+    right: 66.51%;
+    top: 84.63%;
+    bottom: 13.33%;
+    font-family: SF Pro Text;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.booking-bar {
+
+    position: absolute;
+    width: 1074px;
+    height: 72px;
+    left: 48px;
+    top: 73px;
+    border: 1px solid rgba(231, 231, 242, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.variables {
+    box-sizing: border-box;
+    border-right: 1px solid rgba(231, 231, 242, 0.3);
+    align-items: center;
+    height: 100%;
+}
+
+.variables:first-child {
+    border-left: 0;
+}
+
+.variables:last-child {
+    border-right: 0;
+}
+
+.house {
+    width: 58px;
+}
+
+.house-pic {
+    position: absolute;
+    left: 19.5px;
+    top: 24.65px;
+    opacity: 0.5;
+}
+
+.variables label {
+    display: block;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    color: #E7E7F2;
+    opacity: 0.6;
+    padding: 15;
+}
+
+.variables input {
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+#accommodation {
+    width: 401px;
+}
+
+#check-in {
+    width: 189px;
+}
+
+#check-out {
+    width: 149px;
+}
+
+#guests {
+    width: 264px;
+}
+
+
+/*mask-image: url(rectangle.svg);*/
+/*background: linear-gradient(180deg, #131317 -60.19%, rgba(65, 66, 99, 0.09) 100%);*/
+/*.image {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+}
+*/
